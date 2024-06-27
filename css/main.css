@@ -850,7 +850,7 @@ form {
 }
 
 .steps {
-	padding-bottom: 80px;
+	padding-bottom: 65px;
 	background-image: url(../img/bg_steps.svg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
@@ -879,6 +879,9 @@ form {
 }
 .item-step p {
 	margin: 0;
+}
+.item-step p strong {
+	white-space: nowrap;
 }
 .item-step__number {
 	font-size: 50px;

@@ -226,7 +226,7 @@
         width: 230px;
     }
     .steps {
-        padding-bottom: 70px;
+        padding-bottom: 50px;
         background-size: 800px auto;
     }
     .steps__hand img {
@@ -559,7 +559,7 @@
         margin-bottom: -8px;
     }
     .item-brand {
-        height: 125px;
+        height: 110px;
     }
     .brands__block .title-section {
         margin-bottom: 23px;
@@ -673,7 +673,8 @@
         margin-bottom: 16px;
     }
     .item-step.item-step_main .item-step__number + p {
-        padding: 0 60px;
+        max-width: 160px;
+        margin: 0 auto;
         margin-bottom: 10px;
     }
     .steps__hand img {
@@ -755,6 +756,7 @@
         margin: 0;
         padding: 10px;
         border-radius: 0;
+        font-size: 15px;
         text-align: left;
         height: auto;
         display: block;
@@ -806,11 +808,25 @@
     .unit-billbord__title.unit-billbord__title_small {
         font-size: 18px;
     }
+    .consultation .title-section span {
+        display: block;
+    }
+    .socials-buttons li {
+        flex: 1;
+    }
+    .socials-buttons {
+        gap: 5px;
+    }
+    .steps .container {
+        padding-bottom: 40px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .steps .container {
+        padding-bottom: 25px;
+    }
 }
 
 /* Extra Small Devices, Phones */
