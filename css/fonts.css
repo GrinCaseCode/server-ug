@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Nunito Sans';
+	src: local('NunitoSans10pt-Light'), local('NunitoSans10pt-Light'),
+	url('../fonts/NunitoSans10pt-Light.woff2') format('woff2'),
+	url('../fonts/NunitoSans10pt-Light.woff') format('woff'),
+	url('../fonts/NunitoSans10pt-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	src: local('NunitoSans_10pt-Regular'), local('NunitoSans_10pt-Regular'),
+	url('../fonts/NunitoSans_10pt-Regular.woff2') format('woff2'),
+	url('../fonts/NunitoSans_10pt-Regular.woff') format('woff'),
+	url('../fonts/NunitoSans_10pt-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	src: local('NunitoSans_10pt-SemiBold'), local('NunitoSans_10pt-SemiBold'),
+	url('../fonts/NunitoSans_10pt-SemiBold.woff2') format('woff2'),
+	url('../fonts/NunitoSans_10pt-SemiBold.woff') format('woff'),
+	url('../fonts/NunitoSans_10pt-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	src: local('NunitoSans_10pt-Bold'), local('NunitoSans_10pt-Bold'),
+	url('../fonts/NunitoSans_10pt-Bold.woff2') format('woff2'),
+	url('../fonts/NunitoSans_10pt-Bold.woff') format('woff'),
+	url('../fonts/NunitoSans_10pt-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	src: local('NunitoSans_10pt-Black'), local('NunitoSans_10pt-Black'),
+	url('../fonts/NunitoSans_10pt-Black.woff2') format('woff2'),
+	url('../fonts/NunitoSans_10pt-Black.woff') format('woff'),
+	url('../fonts/NunitoSans_10pt-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Russo One';
+    src: local('Russo One Regular'), local('Russo-One-Regular'),
+        url('../fonts/RussoOne-Regular.woff2') format('woff2'),
+        url('../fonts/RussoOne-Regular.woff') format('woff'),
+        url('../fonts/RussoOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

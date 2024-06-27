@@ -1,0 +1,876 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1600px) {
+    body {
+        font-size: 14px;
+    }
+    .logo img {
+        width: 170px;
+    }
+    .header__wrap {
+        gap: 25px;
+        padding: 10px 0;
+    }
+    .menu a {
+        padding: 0 22px;
+        font-size: 16px;
+        height: 48px;
+    }
+    .sandwich {
+        margin-right: 28px;
+    }
+    .title-big {
+        font-size: 46px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .descr-big {
+        font-size: 27px;
+    }
+    .billbord .descr-big {
+        margin-bottom: 38px;
+    }
+    .billbord__info {
+        padding: 13px 20px;
+        font-size: 21px;
+        margin-bottom: 38px;
+        max-width: 493px;
+    }
+    .target-audience {
+        font-size: 18px;
+    }
+    .billbord .btn-main {
+        height: 58px;
+        padding: 0 32px;
+        margin-top: 34px;
+        font-size: 16px;
+    }
+    .btn-main {
+        height: 48px;
+        padding: 0 22px;
+        font-size: 13px;
+    }
+    .unit-billbord {
+        padding: 33px 50px;
+        min-height: 255px;
+    }
+    .list-units {
+        margin-right: -30px;
+    }
+    .unit-billbord__title {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+    .unit-billbord__list a {
+        padding: 2px 18px;
+    }
+    .billbord {
+        padding-top: 65px;
+        min-height: 670px;
+    }
+    .target-audience__title {
+        margin-right: 16px;
+    }
+    .wrapper {
+        padding-top: 105px;
+    }
+    .brands {
+        padding-top: 58px;
+        padding-bottom: 100px;
+    }
+    .title-section {
+        font-size: 31px;
+    }
+    .brands__block {
+        padding: 42px 55px;
+    }
+    .row.row_brands > div {
+        padding: 0 12px;
+        margin-bottom: 24px;
+    }
+    .row.row_brands {
+        margin: 0 -12px;
+        margin-bottom: -24px;
+    }
+    .bottom-button {
+        padding-top: 38px;
+    }
+    .consultation__hand_1 img {
+        max-width: 600px;
+    }
+    .consultation__hand_1 {
+        top: -335px;
+        left: -230px;
+    }
+    .consultation__hand_2 img {
+        max-width: 480px;
+    }
+    .consultation__hand_2 {
+        top: 43px;
+        right: -223px;
+    }
+    .consultation .title-section {
+        font-size: 36px;
+        max-width: 930px;
+    }
+    .consultation__form li {
+        font-size: 16px;
+    }
+    .consultation__form {
+        padding: 22px 27px;
+    }
+    .consultation__title {
+        font-size: 21px;
+        margin-bottom: 12px;
+    }
+    .title-input {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .consultation__bottom .btn-main {
+        height: 55px;
+        font-size: 16px;
+    }
+    .consultation__buttons {
+        width: 255px;
+    }
+    .file-upload {
+        width: 400px;
+    }
+    .file-upload label {
+        font-size: 13px;
+        height: 58px;
+    }
+    .consultation__subtitle {
+        margin-top: -20px;
+        font-size: 22px;
+    }
+    .consultation__head img {
+        width: 36px;
+        margin-right: 10px;
+    }
+    .consultation__info {
+        font-size: 16px;
+        padding: 27px 24px;
+        padding-bottom: 37px;
+    }
+    .consultation__head {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .consultation__form .checkbox {
+        margin-left: 0;
+    }
+    .checkbox {
+        font-size: 11px;
+    }
+    .item-client {
+        height: 78px;
+    }
+    .clients__block .title-section {
+        margin-bottom: 53px;
+    }
+    .clients__block {
+        padding: 39px 25px;
+        padding-bottom: 72px;
+    }
+    .reviews__block {
+        padding: 26px 35px;
+        min-height: 310px;
+    }
+    .reviews__image img {
+        max-width: 330px;
+    }
+    .reviews__image {
+        top: -134px;
+        right: -237px;
+    }
+    .reviews {
+        padding-bottom: 230px;
+    }
+    .steps .title-section {
+        margin-bottom: 26px;
+    }
+    .item-step {
+        padding: 37px 100px;
+        padding-right: 101px;
+        font-size: 16px;
+        margin-bottom: 22px;
+    }
+    .item-step__number {
+        font-size: 45px;
+        top: 30px;
+        left: 20px;
+    }
+    .item-step__title {
+        font-size: 25px;
+        margin-bottom: 19px;
+    }
+    .item-step.item-step_main {
+        padding: 32px 76px;
+    }
+    .socials-buttons a {
+        font-size: 17px;
+        padding: 8px;
+        padding-right: 16px;
+    }
+    .item-step .socials-buttons {
+        margin-top: 12px;
+        margin-bottom: 28px;
+    }
+    .socials-buttons a img {
+        height: 30px;
+        margin-right: 10px;
+    }
+    .item-step .btn-main {
+        margin-top: 11px;
+        width: 230px;
+    }
+    .steps {
+        padding-bottom: 70px;
+        background-size: 800px auto;
+    }
+    .steps__hand img {
+        max-width: 340px;
+    }
+    .steps__hand {
+        bottom: -94px;
+        left: -194px;
+    }
+    .footer__nav {
+        font-size: 16px;
+    }
+    .footer p {
+        margin-bottom: 15px;
+    }
+    .footer__nav li {
+        margin-bottom: 19px;
+    }
+    .btn-top {
+        width: 56px;
+        height: 56px;
+        font-size: 16px;
+        margin-left: 28px;
+    }
+    .menu-wrap {
+        padding: 8px 21px;
+        padding-right: 45px;
+    }
+    .brands__block .title-section {
+        max-width: 1003px;
+        margin-bottom: 39px;
+    }
+    .item-brand {
+        height: 175px;
+    }
+    .consultation {
+        padding-top: 95px;
+        padding-bottom: 60px;
+    }
+    .footer-bottom {
+        padding: 15px 0;
+        font-size: 13px;
+        margin-top: 34px;
+    }
+    .footer {
+        border-radius: 42px 42px 0 0;
+    }
+    .header::before {
+        max-height: 101px;
+    }
+    .list-units {
+        max-height: 539px;
+    }
+    .unit-billbord__title.unit-billbord__title_small {
+        font-size: 22px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .menu a {
+        padding: 0 19px;
+        font-size: 14px;
+        height: 43px;
+    }
+    .sandwich {
+        width: 64px;
+        height: 43px;
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-right: 15px;
+    }
+    body {
+        font-size: 13px;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .link-main {
+        font-size: 13px;
+    }
+    .header__wrap {
+        gap: 20px;
+        padding: 8px 0;
+    }
+    .wrapper {
+        padding-top: 95px;
+    }
+    .title-big {
+        font-size: 36px;
+        margin-top: 19px;
+        margin-bottom: 16px;
+    }
+    .descr-big {
+        font-size: 22px;
+    }
+    .billbord .descr-big {
+        margin-bottom: 30px;
+    }
+    .billbord__info {
+        padding: 11px 17px;
+        font-size: 19px;
+        margin-bottom: 30px;
+        max-width: 450px;
+    }
+    .target-audience {
+        font-size: 16px;
+    }
+    .target-audience__title {
+        margin-right: 12px;
+    }
+    .billbord .btn-main {
+        height: 55px;
+        padding: 0 29px;
+        margin-top: 29px;
+        font-size: 14px;
+    }
+    .unit-billbord {
+        padding: 20px 22px;
+        min-height: 255px;
+        min-height: 228px;
+    }
+    .unit-billbord__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .billbord {
+        min-height: 620px;
+    }
+    .title-section {
+        font-size: 25px;
+    }
+    .brands__block {
+        padding: 31px 35px;
+    }
+    .brands__block .title-section {
+        max-width: 802px;
+        margin-bottom: 31px;
+    }
+    .item-brand {
+        height: 155px;
+    }
+    .consultation__hand_2 img {
+        max-width: 380px;
+    }
+    .consultation__hand_2 {
+        display: none;
+    }
+    .consultation__form li {
+        font-size: 14px;
+    }
+    .consultation .title-section {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    .consultation__form {
+        padding: 19px 14px;
+    }
+    .title-input {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .consultation__buttons {
+        width: 196px;
+    }
+    .file-upload {
+        width: 340px;
+    }
+    .consultation__bottom .btn-main {
+        height: 50px;
+        font-size: 14px;
+    }
+    .consultation__subtitle {
+        margin-top: -13px;
+        font-size: 19px;
+    }
+    .consultation__info {
+        font-size: 14px;
+        padding: 22px 13px;
+        padding-bottom: 30px;
+    }
+    .consultation__head img {
+        width: 27px;
+        margin-right: 7px;
+    }
+    .consultation__head {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    .consultation {
+        padding-top: 75px;
+    }
+    .consultation__hand_1 img {
+        max-width: 520px;
+    }
+    .consultation__hand_1 {
+        top: -280px;
+        left: -171px;
+    }
+    .clients {
+        padding-top: 56px;
+    }
+    .reviews__image img {
+        max-width: 260px;
+    }
+    .reviews__image {
+        top: -103px;
+        right: -164px;
+    }
+    .reviews {
+        padding-bottom: 160px;
+    }
+    .item-step {
+            padding: 28px 75px;
+            padding-right: 62px;
+            font-size: 13px;
+            margin-bottom: 22px;
+    }
+    .item-step__number {
+        font-size: 39px;
+        top: 24px;
+        left: 13px;
+    }
+    .item-step.item-step_main {
+        padding: 32px 44px;
+    }
+    .socials-buttons a {
+        font-size: 14px;
+    }
+    .steps {
+        padding-bottom: 50px;
+        background-size: 600px auto;
+    }
+    .steps__hand img {
+        max-width: 280px;
+    }
+    .steps__hand {
+        bottom: -88px;
+        left: -129px;
+    }
+    .logo-descr {
+        font-size: 11px;
+    }
+    .footer__logo .logo-descr {
+        margin-top: 13px;
+    }
+    .footer__nav {
+        font-size: 14px;
+    }
+    .footer__contacts {
+        margin-left: -30px;
+    }
+    .footer-bottom {
+        padding: 13px 0;
+        font-size: 11px;
+        margin-top: 24px;
+    }
+    .btn-top {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        margin-left: -25px;
+    }
+    .header::before {
+        max-height: 92px;
+    }
+    .list-units {
+        max-height: 483px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header__wrap .logo-descr,
+    .header__wrap .link-main,
+    .header__wrap .btn-main,
+    .header__wrap .list-socials,
+    .menu-wrap {
+        display: none;
+    }
+    .wrapper {
+        padding-top: 62px;
+    }
+    .billbord {
+        margin: 0 8px;
+    }
+    .title-big {
+        font-size: 34px;
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+    .descr-big {
+        font-size: 15px;
+    }
+    .billbord .descr-big {
+        margin-bottom: 25px;
+    }
+    .billbord__info {
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-bottom: 26px;
+        max-width: 320px;
+    }
+    .list-units {
+        margin-right: 0;
+    }
+    .unit-billbord {
+        margin-bottom: 0;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    .target-audience {
+        font-size: 14px;
+    }
+    .brands__block {
+        padding: 25px 15px;
+    }
+    .title-section {
+        font-size: 21px;
+    }
+    .brands {
+        padding-top: 47px;
+        padding-bottom: 80px;
+    }
+    .row.row_brands > div {
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .row.row_brands {
+        margin: 0 -4px;
+        margin-bottom: -8px;
+    }
+    .item-brand {
+        height: 125px;
+    }
+    .brands__block .title-section {
+        margin-bottom: 23px;
+    }
+    .consultation__hand_1 img {
+        max-width: 300px;
+    }
+    .consultation__hand_1 {
+        top: -165px;
+        left: -50px;
+    }
+    .bottom-button {
+        padding-top: 25px;
+    }
+    .consultation .title-section {
+        font-size: 22px;
+    }
+    .consultation {
+        padding-top: 50px;
+        margin: 0 8px;
+        padding-bottom: 40px;
+    }
+    .consultation__info {
+        margin-bottom: 20px;
+    }
+    .consultation__title {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .consultation__form ul {
+        margin-bottom: 20px;
+    }
+    .item-form {
+        margin-bottom: 20px;
+    }
+    .consultation__bottom {
+        display: block;
+    }
+    .file-upload {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .file-upload label {
+        height: 52px;
+    }
+    .title-input {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .consultation__buttons {
+        margin-top: 0;
+        width: 100%;
+    }
+    .consultation__subtitle {
+        line-height: 140%;
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .checkbox label > span {
+        padding-top: 4px;
+    }
+    .checkbox {
+        font-size: 12px;
+    }
+    .clients {
+        padding-top: 35px;
+    }
+    .clients__block .title-section {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .clients__block {
+        padding: 25px 15px;
+    }
+    .item-client {
+        height: 60px;
+    }
+    .slider-clients {
+        padding-bottom: 30px;
+    }
+    .reviews__block {
+        padding: 20px 15px;
+        min-height: 250px;
+    }
+    .reviews__image img {
+        max-width: 160px;
+    }
+    .reviews__image {
+        top: -37px;
+        right: -84px;
+    }
+    .reviews {
+        padding-bottom: 60px;
+    }
+    .steps .title-section {
+        margin-bottom: 18px;
+    }
+    .item-step,
+    .item-step.item-step_main {
+        margin-bottom: 20px;
+    }
+    .item-step {
+        padding-right: 30px;
+    }
+    .item-step.item-step_main {
+        padding: 32px 25px;
+    }
+    .item-step__title {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .item-step.item-step_main .item-step__number + p {
+        padding: 0 60px;
+        margin-bottom: 10px;
+    }
+    .steps__hand img {
+        max-width: 160px;
+    }
+    .steps__hand {
+        bottom: -88px;
+        left: -46px;
+    }
+    .btn-top {
+        margin-left: 0;
+        right: 20px;
+        left: auto;
+    }
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+    .footer__contacts {
+        margin-left: 0;
+    }
+    .footer-bottom {
+        padding: 10px 0;
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    .footer-bottom  .row > div {
+        padding-bottom: 10px;
+    }
+    .header__wrap .phone-main {
+        width: 55px;
+        height: 36px;
+        background: #2B5DE9;
+        color: #fff;
+        border-radius: 40px;
+        font-size: 0;
+        line-height: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__wrap .phone-main i {
+        font-size: 17px;
+        display: block;
+    }
+    .sandwich_mobile {
+        display: flex;
+    }
+    .sandwich {
+        width: 55px;
+        height: 36px;
+        padding-left: 16px;
+        padding-top: 7px;
+        margin-right: 0;
+        background: #2B5DE9;
+    }
+    .sandwich span {
+        background: #fff;
+    }
+    .logo-wrap {
+        margin-right: 0;
+    }
+    .header__wrap {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .menu-mobile {
+        width: 100%;
+        top: 100%;
+        left: 0;
+        max-height: 100vh;
+        padding: 15px 15px;
+        padding-bottom: 50px;
+        display: none;
+        overflow: auto;
+        background: #f0f3f4;
+        position: absolute;
+      }
+      .menu a {
+        margin: 0;
+        padding: 10px;
+        border-radius: 0;
+        text-align: left;
+        height: auto;
+        display: block;
+        position: relative;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #383838;
+      }
+      .menu-mobile .menu {
+        display: block;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      .menu-mobile .phone-main {
+        font-size: 16px;
+        margin-right: 20px;
+      }
+      .menu-mobile__contacts {
+        display: flex;
+        align-items: center;
+      }
+      .menu-overlay {
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        z-index: -1;
+    }
+    .header::before {
+        max-height: 100%;
+    }
+    .modal-wrap {
+        padding: 30px 22px;
+    }
+    .unit-billbord {
+        font-size: 13px;
+    }
+    .billbord {
+        padding-bottom: 40px;
+    }
+    .list-units {
+        max-height: 500px;
+    }
+    .consultation__info {
+        font-size: 13px;
+    }
+    .unit-billbord__title.unit-billbord__title_small {
+        font-size: 18px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .menu-overlay,
+    .menu-mobile {
+        display: none !important;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1420px;
+}
+}
+@media (min-width: 1930px) {
+    .consultation .container {
+        position: static;
+    }
+    .consultation {
+        position: relative;
+    }
+    .consultation__hand_1 {
+        top: -321px;
+        left: -29px;
+    }
+    .consultation__hand_2 {
+        top: 115px;
+        right: -20px;
+    }
+}
