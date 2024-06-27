@@ -820,6 +820,12 @@
     .steps .container {
         padding-bottom: 40px;
     }
+    .socials-buttons a {
+        font-size: 14px;
+        justify-content: flex-start;
+        max-width: 160px;
+        margin: 0 auto;
+    }
 }
 
 /* Small Devices, Tablets */
