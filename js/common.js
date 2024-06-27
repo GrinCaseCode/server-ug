@@ -42,7 +42,7 @@ $(document).ready(function () {
 
 
 	//кнопка sandwich
-	$(".sandwich").click(function() {
+	$(".sandwich_mobile").click(function() {
 		if ($(".menu-mobile").is(":hidden")) {
 			$(".menu-mobile").slideDown(200);
 			$(".menu-overlay").fadeIn(200);
@@ -57,7 +57,7 @@ $(document).ready(function () {
 	$(".menu-overlay").click(function() {
 		$(".menu-mobile").slideUp(200);
 		$(".menu-overlay").fadeOut(200);
-		$(".sandwich").removeClass("active");
+		$(".sandwich_mobile").removeClass("active");
 	});
 
 	//слайдер
