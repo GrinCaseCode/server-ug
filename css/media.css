@@ -1282,6 +1282,11 @@
     .head-article .title-section {
         margin-bottom: 0;
     }
+    .contacts-top .descr-section {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Small Devices, Tablets */
