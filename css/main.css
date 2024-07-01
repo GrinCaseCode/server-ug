@@ -1486,6 +1486,7 @@ form {
 #map {
 	height: 382px;
 	border-radius: 8px;
+	overflow: hidden;
 	background: #f0f3f4;
 }
 .page-contacts .content-page {
