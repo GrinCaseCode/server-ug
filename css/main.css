@@ -1221,6 +1221,9 @@ form {
 	flex-direction: column;
 	align-items: flex-start;
 }
+.item-news:hover {
+	box-shadow: 0 5px 12px #ccc;
+}
 .item-news__image {
 	height: 187px;
 	border-radius: 8px;
