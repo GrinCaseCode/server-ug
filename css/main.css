@@ -1643,6 +1643,11 @@ form {
 	max-width: 555px;
 }
 
+.page-servers {
+	background-image: url(../img/bg_page1.svg);
+	background-repeat: no-repeat;
+    background-position: center top;
+}
 .page-servers .title-section {
 	padding-top: 60px;
 	padding-bottom: 50px;
