@@ -477,6 +477,18 @@
         width: 175px;
         margin-top: 24px;
     }
+    .item-component {
+        padding: 20px;
+        padding-top: 18px;
+        padding-right: 14px;
+    }
+    .item-component__image {
+        height: 115px;
+        margin-left: 13px;
+    }
+    .item-component__head {
+        margin-bottom: 25px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -754,6 +766,10 @@
     }
     .price-main {
         font-size: 16px;
+    }
+    .item-component__image {
+        height: 85px;
+        margin-left: 9px;
     }
 }
 
@@ -1245,6 +1261,23 @@
         font-size: 18px;
         height: 170px;
         margin-top: 30px;
+    }
+    .modal-wrap .btn-main {
+        margin-top: 38px;
+        height: 58px;
+        font-size: 16px;
+        max-width: 212px;
+    }
+    .billbord_accessories .subtitle-section {
+        font-size: 20px;
+    }
+    .item-component__image {
+        height: 100px;
+        margin-left: 15px;
+    }
+    .page-components {
+        padding-top: 35px;
+        padding-bottom: 55px;
     }
 }
 

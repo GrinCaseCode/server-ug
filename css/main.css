@@ -1101,11 +1101,11 @@ form {
 	display: none;
 }
 .modal-wrap {
-	padding: 30px 40px;
-	width: 400px;
+	padding: 46px 77px;
+	width: 431px;
 	max-width: 100%;
 	margin: 0 auto;
-	background: #03045e;
+	background: #03045E;
 	color: #fff;
     border-radius: 20px;
 }
@@ -1115,8 +1115,9 @@ form {
 }
 .title-modal {
 	font-size: 24px;
-	margin-bottom: 15px;
-	font-family: 'Russo One';
+	margin-bottom: 35px;
+	color: #55DFFD;
+	font-weight: 600;
 	text-align: center;
 }
 .descr-modal {
@@ -1124,14 +1125,23 @@ form {
 	margin-bottom: 15px;
 	text-align: center;
 }
+.modal-wrap .checkbox {
+	margin-top: 30px;
+}
 .modal-wrap .btn-main {
-	margin-top: 15px;
+	margin: 0 auto;
+	margin-top: 56px;
+	height: 64px;
+	font-size: 18px;
 	width: 100%;
+	max-width: 230px;
+	display: flex;
 }
 .modal-wrap .item-form {
-    margin-bottom: 22px;
+    margin-bottom: 24px;
 }
 .fancybox-slide--html .fancybox-close-small {
+	padding: 7px;
     color: #fff;
     opacity: 1;
 }
@@ -1785,4 +1795,56 @@ form {
 .more-catalog img {
 	width: 198px;
 	margin-top: 33px;
+}
+.billbord_accessories {
+	background-image: url(../img/billbord_accessories.jpg);
+}
+.billbord_accessories .subtitle-section {
+	max-width: 790px;
+}
+.page-components {
+	padding-top: 48px;
+	padding-bottom: 77px;
+	background-image: url(../img/bg_page1.svg);
+	background-repeat: no-repeat;
+    background-position: center top;
+}
+.item-component {
+	padding: 32px;
+	padding-top: 27px;
+	padding-right: 25px;
+	border-radius: 16px;
+	line-height: 150%;
+	color: #383838;
+	min-height: 100%;
+	background: #fff;
+	display: block;
+	width: 100%;
+}
+.item-component__head {
+	margin-bottom: 34px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.item-component__image {
+	height: 132px;
+	margin-left: 20px;
+	flex: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item-component__image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.item-component .title-middle {
+	color: #03045e;
+}
+.item-component:hover {
+	box-shadow: 0 5px 12px #ccc;
+}
+.page-components + .consultation.consultation_page {
+	margin-top: 0;
 }
