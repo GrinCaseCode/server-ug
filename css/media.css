@@ -71,7 +71,7 @@
         margin-right: 16px;
     }
     .wrapper {
-        padding-top: 105px;
+        padding-top: 132px;
     }
     .brands {
         padding-top: 58px;
@@ -283,6 +283,200 @@
     .unit-billbord__title.unit-billbord__title_small {
         font-size: 22px;
     }
+    .content-page {
+        padding: 24px 50px;
+        padding-bottom: 33px;
+    }
+    .row.row_main > div {
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    .row.row_main {
+        margin: 0 -10px;
+        margin-bottom: -20px;
+    }
+    .item-news__content {
+        padding: 14px;
+        padding-bottom: 23px;
+    }
+    .item-news__title {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .item-news__date {
+        padding-top: 23px;
+        font-size: 13px;
+    }
+    .item-news__image {
+        height: 172px;
+    }
+    .content-page .title-section {
+        margin-bottom: 24px;
+    }
+    .article-content, .billbord-article {
+        margin: 0 16px;
+    }
+    .date-article {
+        left: 15px;
+        bottom: 15px;
+        font-size: 13px;
+        border-radius: 8px;
+        padding: 7px 13px;
+    }
+    .head-article .title-section {
+        margin-bottom: 0;
+    }
+    .head-article {
+        padding: 19px;
+        margin-bottom: -65px;
+        padding-bottom: 95px;
+    }
+    .article-content h2 {
+        font-size: 21px;
+        margin-top: 17px;
+        margin-bottom: 11px;
+    }
+    .contacts-block__value {
+        font-size: 34px;
+        gap: 18px;
+        margin-bottom: 16px;
+    }
+    .socials-main {
+        gap: 19px;
+    }
+    .socials-main img {
+        width: 32px;
+    }
+    .title-middle {
+        font-size: 21px;
+    }
+    .descr-section {
+        margin-bottom: 30px;
+    }
+    .page-contacts {
+        background-position: center top 430px;
+    }
+    .billbord_about .title-section {
+        margin-bottom: 55px;
+    }
+    .billbord__content {
+        padding: 28px 26px;
+    }
+    .billbord_about {
+        min-height: 510px;
+    }
+    .title-about {
+        font-size: 80px;
+        margin-bottom: 60px;
+    }
+    .page-about {
+        padding-top: 65px;
+    }
+    .head-about {
+        padding: 42px 39px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    .about-main {
+        margin-bottom: 60px;
+        font-size: 18px;
+    }
+    .about-text {
+        font-size: 16px;
+        padding: 50px 25px;
+        padding-right: 18px;
+    }
+    .item-about {
+        padding: 19px 24px;
+        padding-left: 49px;
+        min-height: 170px;
+        font-size: 15px;
+    }
+    .item-about .title-middle {
+        margin-bottom: 12px;
+    }
+    .item-about__icon {
+        width: 30px;
+        height: 30px;
+        top: 19px;
+        left: 13px;
+    }
+    .row.row_page > div {
+        padding: 0 8px;
+        margin-bottom: 16px;
+    }
+    .row.row_page {
+        margin: 0 -8px;
+        margin-bottom: -16px;
+    }
+    .row + .title-about {
+        margin-top: 73px;
+    }
+    .descr-about {
+        font-size: 18px;
+        max-width: 985px;
+    }
+    .consultation_page {
+        margin: 70px 20px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }   
+    .consultation_page .consultation__head {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .consultation_page .consultation__form {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .unit-billbord.unit-billbord_servers {
+        padding: 42px 16px;
+        padding-bottom: 24px;
+    }
+    .page-servers .title-section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .item-solution {
+        padding: 30px 20px;
+    }
+    .item-solution__title {
+        font-size: 17px;
+    }
+    .item-solution__icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 11px;
+    }
+    .item-solution__head {
+        padding-bottom: 18px;
+    }
+    .item-catalog__image {
+        margin-bottom: 19px;
+        height: 200px;
+    }
+    .item-catalog__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .price-main {
+        font-size: 18px;
+    }
+    .item-catalog .btn-main {
+        padding: 0 31px;
+    }
+    .item-catalog__bottom {
+        padding-top: 18px;
+    }
+    .more-catalog {
+        font-size: 21px;
+        height: 185px;
+        margin-top: 43px;
+    }
+    .more-catalog img {
+        width: 175px;
+        margin-top: 24px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -312,7 +506,7 @@
         padding: 8px 0;
     }
     .wrapper {
-        padding-top: 95px;
+        padding-top: 125px;
     }
     .title-big {
         font-size: 36px;
@@ -494,6 +688,72 @@
     }
     .list-units {
         max-height: 483px;
+    }
+    .item-news__title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .content-page {
+        padding: 22px 25px;
+        padding-bottom: 30px;
+    }
+    .contacts-block {
+        padding: 25px 18px;
+    }
+    .contacts-block__value {
+        font-size: 27px;
+        gap: 15px;
+    }
+    .contacts-block .title-middle {
+        margin-bottom: 18px;
+    }
+    .billbord__content {
+        padding: 28px 30px;
+    }
+    .billbord_about .title-section {
+        margin-bottom: 40px;
+    }
+    .billbord_about {
+        min-height: 440px;
+    }
+    .title-about {
+        font-size: 62px;
+        margin-bottom: 40px;
+    }
+    .head-about {
+        padding: 35px 30px;
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+    .about-main {
+        margin-bottom: 45px;
+        font-size: 16px;
+    }
+    .title-middle {
+        font-size: 19px;
+    }
+    .item-about {
+        padding: 16px 13px;
+        padding-left: 40px;
+        min-height: 150px;
+        font-size: 13px;
+    }
+    .item-about__icon {
+        width: 26px;
+        height: 26px;
+        top: 16px;
+        left: 9px;
+    }
+    .about-text {
+        font-size: 14px;
+        padding: 33px 19px;
+        padding-right: 10px;
+    }
+    .item-catalog .btn-main {
+        padding: 0 19px;
+    }
+    .price-main {
+        font-size: 16px;
     }
 }
 
@@ -686,7 +946,7 @@
     }
     .btn-top {
         margin-left: 0;
-        right: 20px;
+        right: 15px;
         left: auto;
     }
     .footer__logo {
@@ -826,6 +1086,166 @@
         max-width: 160px;
         margin: 0 auto;
     }
+    .page-numbers {
+        margin: 0 18px;
+        font-size: 14px;
+    }
+    .prev.page-numbers, .next.page-numbers {
+        width: 36px;
+        height: 36px;
+        font-size: 13px;
+    }
+    .pager {
+        height: 36px;
+        margin-top: 30px;
+    }
+    .page-article,
+    .page-news {
+        padding-bottom: 60px;
+    }
+    .article-content, .billbord-article {
+        margin: 0 8px;
+    }
+    .content-page {
+        padding: 20px 15px;
+    }
+    .head-article .title-section br {
+        display: none;
+    }
+    .date-article {
+        left: 10px;
+        bottom: 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 3px 11px;
+    }
+    .head-article {
+        padding-bottom: 85px;
+    }
+    .article-content h2 {
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    .breadcrumbs {
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .footer {
+        padding-top: 35px;
+    }
+    .item-news__date {
+        padding-top: 17px;
+    }
+    .content-page .title-section {
+        margin-bottom: 22px;
+    }
+    .item-news__content::after {
+        width: 22px;
+        height: 22px;
+        bottom: 14px;
+        right: 14px;
+    }
+    .title-middle {
+        font-size: 17px;
+    }
+    .contacts-top {
+        padding: 20px 15px;
+    }
+    .contacts-block__value {
+        font-size: 22px;
+        display: block;
+    }
+    .contacts-block__value .socials-main {
+        margin-top: 20px;
+    }
+    .contacts-info .title-middle {
+        margin-bottom: 20px;
+    }
+    .contacts-info {
+        padding-top: 30px;
+        padding-bottom: 26px;
+    }
+    #map {
+        height: 340px;
+    }
+    .descr-section {
+        margin-bottom: 15px;
+        margin-top: 8px;
+    }
+    .about-main p:last-child {
+        margin-bottom: 15px;
+    }
+    .billbord_about {
+        padding-top: 20px;
+    }
+    .billbord__content {
+        padding: 20px 15px;
+    }
+    .title-about {
+        font-size: 34px;
+        margin-bottom: 32px;
+    }
+    .page-about {
+        padding-top: 45px;
+    }
+    .head-about {
+        padding: 25px 15px;
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .about-main {
+        margin-bottom: 38px;
+        font-size: 14px;
+    }
+    .about-text {
+        margin-bottom: 20px;
+    }
+    .item-about {
+        padding: 20px;
+        padding-left: 60px;
+        min-height: 135px;
+    }
+    .item-about__icon {
+        left: 18px;
+    }
+    .row + .title-about {
+        margin-top: 45px;
+    }
+    .descr-about {
+        font-size: 15px;
+    }
+    .consultation {
+        margin: 30px 8px;
+    }
+    .subtitle-section {
+        font-size: 24px;
+    }
+    .billbord_servers .title-section {
+        margin-bottom: 70px;
+    }
+    .unit-billbord.unit-billbord_servers {
+        margin-top: 0;
+        margin-bottom: 20px;
+        min-height: initial;
+    }
+    .row > div:last-child .unit-billbord.unit-billbord_servers {
+        margin-bottom: 0;
+    }
+    .page-servers .title-section {
+        padding-top: 33px;
+        padding-bottom: 23px;
+    }
+    .item-catalog .btn-main {
+        padding: 0 31px;
+        height: 45px;
+    }
+    .more-catalog {
+        font-size: 18px;
+        height: 170px;
+        margin-top: 30px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -833,11 +1253,16 @@
     .steps .container {
         padding-bottom: 25px;
     }
+    .item-news__image {
+        height: 205px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .item-news__image {
+        height: 158px;
+    }
 }
 
 /* Custom, iPhone Retina */
