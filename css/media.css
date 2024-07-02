@@ -1402,6 +1402,9 @@
         max-width: 340px;
         padding-bottom: 0;
     }
+    .page-components_software .item-component__hover {
+        top: 64px;
+    }
 }
 
 /* Small Devices, Tablets */
