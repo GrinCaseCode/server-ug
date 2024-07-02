@@ -489,6 +489,50 @@
     .item-component__head {
         margin-bottom: 25px;
     }
+    .item-component__hover img {
+        transform: scale(0.9);
+        transform-origin: 50% 50%;
+    }
+    .page-components_software .item-component__hover {
+        top: 47px;
+    }
+    .page-components .about-main {
+        margin-top: 55px;
+    }
+    .page-mockup {
+        padding-top: 80px;
+        padding-bottom: 110px;
+    }
+    .mockup-block {
+        padding: 45px 50px;
+        padding-bottom: 70px;
+        max-width: 600px;
+        font-size: 18px;
+    }
+    .mockup-block__title {
+        font-size: 43px;
+        margin-bottom: 24px;
+    }
+    .mockup-block__descr {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .mockup-block .btn-main {
+        margin-top: 38px;
+        height: 58px;
+        padding: 0 58px;
+        font-size: 16px;
+    }
+    .mockup-block__image img {
+        max-width: 650px;
+    }
+    .mockup-block__image {
+        top: -67px;
+        right: -488px;
+    }
+    .page-mockup_error .mockup-block__image {
+        right: -487px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -770,6 +814,36 @@
     .item-component__image {
         height: 85px;
         margin-left: 9px;
+    }
+    .item-component__hover img {
+        transform: scale(0.8);
+    }
+    .mockup-block {
+        padding: 40px 33px;
+        padding-bottom: 50px;
+        max-width: 515px;
+        font-size: 16px;
+    }
+    .mockup-block__title {
+        font-size: 40px;
+        margin-bottom: 19px;
+    }
+    .mockup-block__descr {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .mockup-block__image img {
+        max-width: 570px;
+    }
+    .mockup-block__image {
+        top: -57px;
+        right: -434px;
+    }
+    .page-mockup_error .mockup-block__image {
+        right: -423px;
+    }
+    .page-mockup_error .mockup-block__descr {
+        max-width: 435px;
     }
 }
 
@@ -1268,11 +1342,13 @@
         font-size: 16px;
         max-width: 212px;
     }
+    .billbord_software .subtitle-section,
     .billbord_accessories .subtitle-section {
         font-size: 20px;
     }
     .item-component__image {
         height: 100px;
+        max-width: 150px;
         margin-left: 15px;
     }
     .page-components {
@@ -1286,6 +1362,45 @@
         max-width: 250px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .page-components .about-main {
+        margin-top: 40px;
+    }
+    .page-mockup {
+        padding-top: 40px;
+        padding-bottom: 135px;
+    }
+    .mockup-block__descr {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .mockup-block__title {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .mockup-block__image img {
+        max-width: 300px;
+    }
+    .mockup-block__image {
+        top: 100%;
+        margin-top: -122px;
+        right: -60px;
+    }
+    .mockup-block .btn-main {
+        margin-top: 30px;
+        height: 52px;
+        padding: 0 42px;
+        font-size: 14px;
+    }
+    .mockup-block {
+        max-width: 100%;
+    }
+    .page-mockup_error .mockup-block__image {
+        right: -82px;
+    }
+    .page-mockup_error .mockup-block__descr {
+        max-width: 340px;
+        padding-bottom: 0;
     }
 }
 

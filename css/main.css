@@ -1803,6 +1803,7 @@ form {
 .billbord_accessories {
 	background-image: url(../img/billbord_accessories.jpg);
 }
+.billbord_software .subtitle-section,
 .billbord_accessories .subtitle-section {
 	max-width: 790px;
 }
@@ -1820,6 +1821,8 @@ form {
 	border-radius: 16px;
 	line-height: 150%;
 	color: #383838;
+	position: relative;
+	z-index: 1;
 	min-height: 100%;
 	background: #fff;
 	display: block;
@@ -1851,4 +1854,106 @@ form {
 }
 .page-components + .consultation.consultation_page {
 	margin-top: 0;
+}
+.item-component__hover {
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	z-index: -1;
+	visibility: hidden;
+	transition: all 0.3s;
+}
+.item-component__hover img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.item-component:hover .item-component__hover {
+	visibility: visible;
+	opacity: 1;
+}
+.item-component__text,
+.item-component__image {
+	transition: all 0.3s;
+}
+.item-component:hover .item-component__text,
+.item-component:hover .item-component__image {
+	opacity: 0;
+}
+.item-component:hover {
+	background: #2B5DE9;
+}
+.item-component:hover .title-middle {
+	color: #fff;
+}
+.billbord_software {
+	background-image: url(../img/billbord_software.jpg);
+}
+.page-components_software .item-component__hover {
+	top: 70px;
+}
+.page-components .about-main {
+	margin-top: 78px;
+	margin-bottom: 0;
+}
+.page-mockup {
+	padding-top: 103px;
+	padding-bottom: 141px;
+	background-image: url(../img/bg_page1.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -100%;
+}
+.mockup-block {
+	padding: 55px 76px;
+	padding-bottom: 86px;
+	max-width: 684px;
+	font-size: 20px;
+	line-height: 160%;
+	background: #03045e;
+	color: #fff;
+	border-radius: 20px;
+	z-index: 1;
+	position: relative;
+}
+.mockup-block__title {
+	font-size: 48px;
+	margin-bottom: 34px;
+	line-height: 100%;
+	font-family: 'Russo One';
+}
+.mockup-block__descr {
+	font-size: 30px;
+	margin-bottom: 12px;
+	line-height: 160%;
+	font-weight: 600;
+}
+.mockup-block p {
+	margin: 0;
+}
+.mockup-block .btn-main {
+	margin-top: 47px;
+	height: 64px;
+	padding: 0 64px;
+	font-size: 18px;
+}
+.mockup-block__image {
+	top: -77px;
+	right: -523px;
+	z-index: -1;
+	position: absolute;
+}
+.page-mockup_error .mockup-block__descr {
+	padding-bottom: 20px;
+	max-width: 480px;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+.page-mockup_error .mockup-block__image {
+	right: -545px;
 }
