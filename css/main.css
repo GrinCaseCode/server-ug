@@ -1682,7 +1682,7 @@ form {
 	text-align: center;
 	line-height: 142%;
 }
-.unit-billbord .unit-billbord__list {
+.unit-billbord_servers .unit-billbord__list {
 	justify-content: center;
 	margin: auto 0;
 	width: 100%;
