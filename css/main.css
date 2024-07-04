@@ -69,7 +69,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 .wrapper {
 	padding-top: 153px;
-	overflow: hidden;
 }
 a {
 	text-decoration: none;
@@ -1956,4 +1955,18 @@ form {
 }
 .page-mockup_error .mockup-block__image {
 	right: -545px;
+}
+
+.item-step {
+	top: 156px;
+	position: sticky;
+}
+.col-lg-7 .item-step:nth-child(1) {
+	top: 155px;
+}
+.col-lg-7 .item-step:nth-child(2) {
+	top: 233px;
+}
+.col-lg-7 .item-step:nth-child(3) {
+	top: 325px;
 }

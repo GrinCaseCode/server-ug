@@ -21,17 +21,37 @@ $(document).ready(function () {
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
-	let $listItems = $('.target-audience__list li');
-	let index = 0;
-
-	function showNextItem() {
-		$listItems.hide();
-		$listItems.eq(index).fadeIn(600);
-		index = (index + 1) % $listItems.length;
+	if ($('#typed-output').length > 0) {
+		let $listItems = $('.target-audience__list li');
+		let index = 0;
+		let typed;
+	
+		function showNextItem() {
+			let itemText = $listItems.eq(index).text();
+	
+			if (typed) {
+				typed.destroy();
+			}
+	
+			typed = new Typed('#typed-output', {
+				strings: [itemText],
+				typeSpeed: 50,
+				backSpeed: 50,
+				backDelay: 2000,
+				loop: false,
+				onComplete: function() {
+					setTimeout(function() {
+						index = (index + 1) % $listItems.length;
+						showNextItem();
+					}, 1000); 
+				}
+			});
+		}
+	
+		showNextItem();
 	}
 
-	showNextItem();
-	setInterval(showNextItem, 3000);
+
 
 	/*input file*/
 	$("input[type='file']").change(function () {
@@ -91,7 +111,8 @@ $(document).ready(function () {
 		touchThreshold: 1000,
 		autoplay: true,
 		swipe: false,
-		autoplaySpeed: 4000,
+		speed: 1200,
+		autoplaySpeed: 7000,
 		fade: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
