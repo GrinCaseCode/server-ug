@@ -826,8 +826,11 @@ form {
 }
 
 .reviews {
-	padding-top: 44px;
-	padding-bottom: 278px;
+	padding-top: 128px;
+    padding-bottom: 336px;
+	margin-top: -60px;
+	margin-bottom: -80px;
+	overflow: hidden;
 }
 .reviews__block {
 	padding: 29px 40px;
@@ -1942,8 +1945,8 @@ form {
 	font-size: 18px;
 }
 .mockup-block__image {
-	top: -77px;
-	right: -523px;
+	top: -103px;
+	right: -727px;
 	z-index: -1;
 	position: absolute;
 }
@@ -1954,19 +1957,21 @@ form {
 	font-weight: 400;
 }
 .page-mockup_error .mockup-block__image {
-	right: -545px;
+	right: -773px;
 }
-
 .item-step {
 	top: 156px;
 	position: sticky;
 }
 .col-lg-7 .item-step:nth-child(1) {
-	top: 155px;
+	top: 0;
 }
 .col-lg-7 .item-step:nth-child(2) {
-	top: 233px;
+	top: 155px;
 }
 .col-lg-7 .item-step:nth-child(3) {
+	top: 233px;
+}
+.col-lg-7 .item-step:nth-child(4) {
 	top: 325px;
 }

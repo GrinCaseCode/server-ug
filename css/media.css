@@ -186,6 +186,10 @@
     }
     .reviews {
         padding-bottom: 230px;
+        padding-top: 105px;
+        margin-top: -46px;
+        padding-bottom: 299px;
+        margin-bottom: -97px;
     }
     .steps .title-section {
         margin-bottom: 26px;
@@ -524,26 +528,35 @@
         font-size: 16px;
     }
     .mockup-block__image img {
-        max-width: 650px;
+        max-width: 870px;
     }
     .mockup-block__image {
-        top: -67px;
-        right: -488px;
+        top: -79px;
+        right: -606px;
     }
-    .page-mockup_error .mockup-block__image {
-        right: -487px;
-    }
+
     .item-step {
         top: 132px;
     }
-    .col-lg-7 .item-step:nth-child(1) {
+    .col-lg-7 .item-step:nth-child(2) {
         top: 130px;
     }
-    .col-lg-7 .item-step:nth-child(2) {
+    .col-lg-7 .item-step:nth-child(3) {
         top: 206px;
     }
-    .col-lg-7 .item-step:nth-child(3) {
+    .col-lg-7 .item-step:nth-child(4) {
         top: 286px;
+    }
+    .page-mockup {
+        overflow: hidden;
+    }
+    .page-mockup_error .mockup-block__image {
+        right: -650px;
+    }
+}
+@media only screen and (max-width : 1350px) {
+    .btn-top {
+        margin-left: -50px;
     }
 }
 /* Large Devices, Wide Screens */
@@ -845,29 +858,29 @@
         margin-bottom: 10px;
     }
     .mockup-block__image img {
-        max-width: 570px;
+        max-width: 760px;
     }
     .mockup-block__image {
-        top: -57px;
+        top: -82px;
         right: -434px;
     }
-    .page-mockup_error .mockup-block__image {
-        right: -423px;
-    }
-    .page-mockup_error .mockup-block__descr {
-        max-width: 435px;
+    .page-mockup {
+        padding-bottom: 88px;
     }
     .item-step {
         top: 125px;
     }
-    .col-lg-7 .item-step:nth-child(1) {
+    .col-lg-7 .item-step:nth-child(2) {
         top: 123px;
     }
-    .col-lg-7 .item-step:nth-child(2) {
+    .col-lg-7 .item-step:nth-child(3) {
         top: 183px;
     }
-    .col-lg-7 .item-step:nth-child(3) {
+    .col-lg-7 .item-step:nth-child(4) {
         top: 268px;
+    }
+    .page-mockup_error .mockup-block__image {
+        right: -549px;
     }
 }
 
@@ -1027,7 +1040,8 @@
         right: -84px;
     }
     .reviews {
-        padding-bottom: 60px;
+        margin-bottom: -43px;
+        padding-bottom: 76px;
     }
     .steps .title-section {
         margin-bottom: 18px;
@@ -1392,7 +1406,8 @@
     }
     .page-mockup {
         padding-top: 40px;
-        padding-bottom: 135px;
+        padding-bottom: 165px;
+        margin-bottom: -40px;
     }
     .mockup-block__descr {
         font-size: 20px;
@@ -1403,12 +1418,12 @@
         margin-bottom: 20px;
     }
     .mockup-block__image img {
-        max-width: 300px;
+        max-width: 330px;
     }
     .mockup-block__image {
         top: 100%;
-        margin-top: -122px;
-        right: -60px;
+        margin-top: -81px;
+        right: -55px;
     }
     .mockup-block .btn-main {
         margin-top: 30px;
@@ -1419,22 +1434,33 @@
     .mockup-block {
         max-width: 100%;
     }
-    .page-mockup_error .mockup-block__image {
-        right: -82px;
-    }
-    .page-mockup_error .mockup-block__descr {
-        max-width: 340px;
-        padding-bottom: 0;
-    }
     .page-components_software .item-component__hover {
         top: 64px;
     }
-    .wrapper {
-        overflow: hidden;
+    .hide-mobile {
+        display: none;
     }
-    .item-step {
-        position: relative;
-        top: 0 !important;
+    .item-step, .item-step.item-step_main {
+        margin-bottom: 0;
+    }
+    .col-lg-7 .item-step:nth-child(1) {
+        top: 60px;
+    }
+    .col-lg-7 .item-step:nth-child(2) {
+        top: 140px;
+    }
+    .col-lg-7 .item-step:nth-child(3) {
+        top: 209px;
+    }
+    .col-lg-7 .item-step:nth-child(4) {
+        top: 400px;
+        min-height: 260px;
+    }
+    .reviews {
+        padding-top: 80px;
+    }
+    .page-mockup_error .mockup-block__image {
+        right: -55px;
     }
 }
 
@@ -1480,6 +1506,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .show-mobile,
     .menu-overlay,
     .menu-mobile {
         display: none !important;
